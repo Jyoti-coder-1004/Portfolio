@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyoti - Frontend Developer</title>
+    <meta name="description" content="Portfolio of Jyoti, a passionate Frontend Developer and CSE student.">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Jyo<span>ti</span>.</a>
+            <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="hero-content reveal">
+                <h2 class="greeting">Hello, I am</h2>
+                <h1 class="name">Jyoti</h1>
+                <h3 class="role">Frontend Developer</h3>
+                <p class="tagline">Exploring the world of technology one step at a time.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                    <a href="assets/Resume.pdf" download="Jyoti_Resume.pdf" class="btn btn-secondary">Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-image reveal-right">
+                <div class="img-wrapper">
+                    <img src="assets/jyoti2.jpeg" alt="Jyoti Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+            <h2 class="section-title reveal">About <span>Me</span></h2>
+            <div class="about-container">
+                <div class="about-text reveal-left">
+                    <p>I am Jyoti, a third-year B.Tech Computer Science Engineering student and an aspiring Full Stack Developer. I am passionate about building efficient and user-friendly web applications while continuously learning new technologies.</p>
+                    <p>I have a strong interest in reading novels, which enhances my creativity and perspective. With a bold and confident personality, I enjoy taking initiative, facing challenges, and growing through real-world experiences in the field of technology.</p>
+                </div>
+                <div class="education-cards reveal-right">
+                    <h3 class="subsection-title">Education</h3>
+                    <div class="edu-card">
+                        <div class="edu-year">Current</div>
+                        <h4>B.Tech in Computer Science Engineering</h4>
+                        <h5>Hi-Tech Institute of Engineering and Technology (3rd Year)</h5>
+                        <p>Most recent semester: 82% | CGPA: 8.09</p>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-year">12th Grade</div>
+                        <h4>PCM Background (School Topper)</h4>
+                        <p>Secured 81.4%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <h2 class="section-title reveal">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category reveal">
+                    <div class="skill-icon"><i class="fas fa-desktop"></i></div>
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>React</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal delay-1">
+                    <div class="skill-icon"><i class="fas fa-server"></i></div>
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-category reveal delay-2">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <h2 class="section-title reveal">Featured <span>Projects</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img gradient-bg">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Color Gradient Generator</h3>
+                        <p>A web application creating smooth transitions between colors. Built to create appealing backgrounds using linear, radial, or angular transitions.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <a href="https://gradent-formation-by-jyoti.netlify.app/" target="_blank" class="btn btn-primary sm">Live Preview <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-img task-bg">
+                         <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Tic Tac Toe</h3>
+                        <p>A classic and interactive Tic Tac Toe game highlighting core JavaScript logic, state management, and real-time DOM manipulation.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <a href="https://tic-tac-toe-by-jyoti.netlify.app/" target="_blank" class="btn btn-primary sm">Live Preview <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-img weather-bg">
+                         <i class="fas fa-film"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Netflix Clone</h3>
+                        <p>A visually stunning UI clone of Netflix, showcasing mastery in advanced CSS layouts, responsive design, and modern aesthetic principles.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                        <a href="https://netfix-clone-by-jyoti.netlify.app" target="_blank" class="btn btn-primary sm">Live Preview <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="certificates section">
+            <h2 class="section-title reveal">My <span>Certificates</span></h2>
+            <div class="projects-grid">
+                <!-- Certificate 1 -->
+                <div class="project-card reveal">
+                    <div class="project-img gradient-bg">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>HTML Certification</h3>
+                        <p>Certified in building structured, semantic, and highly accessible web pages using modern HTML.</p>
+                        <a href="assets/html certifcate.pdf" target="_blank" class="btn btn-primary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Certificate 2 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-img task-bg">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cloud Certificate</h3>
+                        <p>Credentials establishing foundational knowledge in deploying and managing modern cloud architectures.</p>
+                        <a href="assets/CLOUD CERTIFICATE.pdf" target="_blank" class="btn btn-secondary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Certificate 3 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-img weather-bg">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Machine Learning for Beginners</h3>
+                        <p>Introductory certification exploring data science, AI workflows, and fundamental ML algorithms.</p>
+                        <a href="assets/ML for begin.pdf" target="_blank" class="btn btn-secondary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Certificate 4 -->
+                <div class="project-card reveal">
+                    <div class="project-img task-bg">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Commercial Certificate</h3>
+                        <p>Demonstrates knowledge in professional commercial practices, business logic, and professional readiness.</p>
+                        <a href="assets/commercial certificate.pdf" target="_blank" class="btn btn-secondary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Certificate 5 -->
+                <div class="project-card reveal delay-1">
+                    <div class="project-img weather-bg">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cloud Workshop</h3>
+                        <p>Hands-on validation of real-time deployment methodologies and advanced infrastructure management.</p>
+                        <a href="assets/CLOUD WORKSHOP.pdf" target="_blank" class="btn btn-secondary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <!-- Certificate 6 -->
+                <div class="project-card reveal delay-2">
+                    <div class="project-img gradient-bg">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>JP Morgan Software Engineering</h3>
+                        <p>Completed the prestigious JP Morgan Chase immersive software engineering virtual experience.</p>
+                        <a href="assets/jp morgan certificate.pdf" target="_blank" class="btn btn-primary sm">View Certificate <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <h2 class="section-title reveal">Get In <span>Touch</span></h2>
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:jsingh58645@gmail.com">jsingh58645@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/jyoti-singh2005" target="_blank">linkedin.com/in/jyoti-singh2005</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/Jyoti-coder-1004" target="_blank">github.com/Jyoti-coder-1004</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <!-- Form submission simulated -->
+                    <form onsubmit="event.preventDefault(); alert('Message successfully sent to Jyoti!');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="How can I help you?" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="#home" class="logo">Jyo<span>ti</span>.</a>
+            <p>Exploring the world of technology one step at a time.</p>
+            <div class="social-links">
+                <a href="https://github.com/Jyoti-coder-1004" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jyoti-singh2005" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:jsingh58645@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Jyoti. Designed and Built with ❤️.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
